@@ -32,7 +32,7 @@ public class IsAnagrama {
     }
 
     public static boolean isAnagramHashTable(String s1, String s2){
-        Map<Character, Integer> strings = new HashMap<>();
+            Map<Character, Integer> strings = new HashMap<>();
 
         for (char c : s1.toCharArray()) {
             strings.put(c, strings.getOrDefault(c, 0) + 1);
